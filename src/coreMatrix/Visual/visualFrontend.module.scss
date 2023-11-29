@@ -1,0 +1,32 @@
+.divWithBorder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #003333;
+  padding: 15px;
+  border-radius: 10px;
+}
+.divWithoutBorder {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
+  padding: 15px;
+  border-radius: 10px;
+}
+.matrixSpan {
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 15px;
+  padding: 5px 15px;
+}
+.vectorSpans {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5px;
+}

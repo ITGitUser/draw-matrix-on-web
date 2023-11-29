@@ -1,0 +1,29 @@
+.AppContainer {
+  .menu {
+    .buttonContainer {
+      display: flex;
+      justify-content: center;
+      button {
+        margin: 20px;
+        padding: 15px;
+        color: #fff;
+        background-color: #226666;
+        border-radius: 10px;
+        border: none;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: #669999;
+      }
+    }
+    .checkBoxContainer {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  }
+}
+.matrixContainer {
+  display: flex;
+  justify-content: center;
+}
